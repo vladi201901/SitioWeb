@@ -1,0 +1,520 @@
+    @media only screen and (max-width:440px) {
+        .nav-menu {
+            display: none;
+        }
+
+        .menu2 {
+            display: none;
+        }
+
+        .nav-responsive {
+            display: block;
+        }
+
+        .menu {
+            display: none;
+        }
+
+
+        .nav-container-button {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--main-color);
+        }
+
+        .nav-container-responsive {
+            display: none;
+        }
+
+        .nav-container-responsive {
+            width: 50%;
+            background-color: aqua;
+        }
+
+        .content-boton {
+            width: 10%;
+            float: left;
+            text-align: center;
+
+        }
+
+        .content-Nombre {
+            width: 90%;
+            float: left;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .list-button {
+            color: var(--white);
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .content {
+            width: 100%;
+        }
+
+        .container {
+            display: block;
+            width: 100%;
+            background-color: #E4E4F2;
+            height: 750px;
+            padding: 1rem;
+            font-family: var(--main-secundary);
+        }
+
+        .content-perfil {
+            width: 100%;
+            margin: 10px;
+            padding: 10px;
+            margin: 0px auto;
+        }
+
+        .h1-style {
+            font-size: 2rem;
+        }
+
+        .p-style {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .info-personal {
+            width: 100%;
+            height: 250px;
+            text-align: justify;
+        }
+
+        .p-style-2 {
+            font-size: 16px;
+            line-height: 1.5em;
+        }
+
+        /*estilos de botones*/
+        .btn-exp {
+            background-color: var(--main-boton);
+            color: white;
+            width: 10em;
+            padding: 10px;
+            margin: 10px;
+            font-family: var(--main-secundary);
+            font-size: 14px;
+            border: var(--main-boton);
+            border-radius: 10px;
+        }
+
+        .btn-cv {
+            background-color: var(--second-color);
+            color: white;
+            width: 10em;
+            padding: 10px;
+            margin: 10px;
+            font-family: var(--main-secundary);
+            font-size: 14px;
+            border: var(--main-boton);
+            border-radius: 10px;
+        }
+
+        .content-imagen {
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+        }
+
+        .img-personal {
+            margin: 20px;
+            border: 2px solid var(--main-color);
+            border-radius: 0% 10% 0% 10%;
+        }
+
+        .container-wrap {
+            display: flex;
+            width: 100%;
+            min-height: 0px;
+            margin: 0px auto;
+        }
+
+        .content-lenguajes {
+            width: 90%;
+            margin: 0px auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .descr-lenguaje {
+            font-size: 16px;
+            font-family: 'Segoe UI';
+            font-style: italic;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .container-wrap .wrap .caja {
+            flex-basis: 40%;
+            font-size: 14px;
+            text-align: center;
+            margin: 10px;
+            padding: 0;
+        }
+
+        .btn-expr {
+            width: 100%;
+            height: 3.5em;
+            background-color: var(--main-boton);
+            color: var(--white);
+            font-family: var(--main-font);
+            font-size: 14px;
+            border: var(--main-boton);
+            border-radius: 10px;
+            transition: all 300ms ease;
+        }
+
+        .exp-cont {
+            width: 100%;
+            border: 2px solid var(--main-boton);
+            border-radius: 5px;
+            margin: 5px;
+            color: var(--main-color);
+        }
+
+        .exp-cont .sec-def {
+            width: 70%;
+            float: left;
+            padding: 0.5em;
+            font-size: 12px;
+            font-family: var(--main-secundary);
+            line-height: 1.5;
+        }
+
+        .container-wrap-3 .wrap .caja-3 {
+            flex-basis: 100%;
+            font-size: 12px;
+            text-align: center;
+            margin: 8px;
+            border: 2px solid var(--main-boton);
+            background-color: var(--white);
+            color: var(--main-color);
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 14px 0px rgb(0 0 0 / 61%);
+            -webkit-box-shadow: 10px 10px 14px 0px rgb(0 0 0 / 61%);
+            -moz-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.61);
+            transition: all 300ms ease;
+        }
+    }
+
+    @media only screen and (min-width:441px) and (max-width:768px) {
+        .nav-menu {
+            display: none;
+        }
+
+        .menu2 {
+            display: none;
+        }
+
+        .nav-responsive {
+            display: block;
+        }
+
+        .menu {
+            display: none;
+        }
+
+
+        .nav-container-button {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--main-color);
+        }
+
+        .nav-container-responsive {
+            display: none;
+        }
+
+        .content-boton {
+            width: 10%;
+            float: left;
+            text-align: center;
+
+        }
+
+        .content-Nombre {
+            width: 90%;
+            float: left;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .list-button {
+            color: var(--white);
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .content {
+            width: 100%;
+        }
+
+        .container {
+            display: block;
+            width: 100%;
+            background-color: #E4E4F2;
+            height: 520px;
+            padding: 1rem;
+            font-family: var(--main-secundary);
+        }
+
+        .h1-style {
+            font-size: 2rem;
+        }
+
+        .p-style {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .info-personal {
+            width: 100%;
+            height: 300px;
+            text-align: justify;
+        }
+
+        .p-style-2 {
+            font-size: 16px;
+            line-height: 1.5em;
+        }
+
+        /*estilos de botones*/
+        .btn-exp {
+            background-color: var(--main-boton);
+            color: white;
+            width: 8em;
+            padding: 8px;
+            margin: 8px;
+            font-family: var(--main-secundary);
+            font-size: 14px;
+            border: var(--main-boton);
+            border-radius: 10px;
+        }
+
+        .btn-cv {
+            background-color: var(--second-color);
+            color: white;
+            width: 8em;
+            padding: 8px;
+            margin: 8px;
+            font-family: var(--main-secundary);
+            font-size: 14px;
+            border: var(--main-boton);
+            border-radius: 10px;
+        }
+
+        .container-wrap .wrap .caja {
+            flex-basis: 20%;
+            font-size: 14px;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .icon-fab {
+            font-size: 18px;
+            margin: 10px;
+        }
+
+        .exp-cont {
+            width: 100%;
+            border: 2px solid var(--main-boton);
+            border-radius: 5px;
+            margin: 5px;
+            color: var(--main-color);
+        }
+
+    }
+
+    @media only screen and (min-width:769px) and (max-width:1024px) {
+        .nav-menu {
+            display: none;
+        }
+
+        .menu2 {
+            display: none;
+        }
+
+        .nav-responsive {
+            display: block;
+        }
+
+        .menu {
+            display: none;
+        }
+
+
+        .nav-container-button {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--main-color);
+        }
+
+        .nav-container-responsive {
+            display: none;
+        }
+
+        .content-boton {
+            width: 10%;
+            float: left;
+            text-align: center;
+
+        }
+
+        .content-Nombre {
+            width: 90%;
+            float: left;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .list-button {
+            color: var(--white);
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .content {
+            width: 100%;
+        }
+
+        .container {
+            display: block;
+            width: 100%;
+            background-color: #E4E4F2;
+            height: 520px;
+            padding: 1rem;
+            font-family: var(--main-secundary);
+        }
+
+        .h1-style {
+            font-size: 2rem;
+        }
+
+        .p-style {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .info-personal {
+            width: 100%;
+            height: 300px;
+            text-align: justify;
+        }
+
+        .p-style-2 {
+            font-size: 16px;
+            line-height: 1.5em;
+        }
+
+        .container-wrap .wrap .caja {
+            flex-basis: 20%;
+            font-size: 14px;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .icon-fab {
+            font-size: 18px;
+            margin: 10px;
+        }
+
+        .exp-cont {
+            width: 100%;
+            border: 2px solid var(--main-boton);
+            border-radius: 5px;
+            margin: 5px;
+            color: var(--main-color);
+        }
+    }
+
+    @media only screen and (min-width:1025px) and (max-width:1200px) {
+        .container-perfil {
+            width: 200px;
+        }
+
+        .descrip-perfil {
+            font-size: 14px;
+        }
+
+        .img-perfil {
+            height: 180px;
+        }
+
+        #nav,
+        .navbar-item {
+            font-size: 16px;
+            padding: 4px;
+        }
+
+        .container {
+            padding: 1em;
+        }
+
+        .info-personal {
+            height: 230px;
+        }
+
+        .h1-style {
+            font-size: 3rem;
+        }
+
+        .p-style {
+            font-size: 18px;
+        }
+
+        .p-style-2 {
+            font-size: 14px;
+        }
+
+        .btn-exp {
+            width: 10em;
+            font-size: 14px;
+        }
+
+        .btn-cv {
+            width: 10em;
+            font-size: 14px;
+        }
+
+        .container-wrap .wrap .caja {
+            font-size: 15px;
+            padding: 10px;
+        }
+
+        .descr-lenguaje {
+            margin-bottom: 5px;
+        }
+
+        .exp-cont {
+            /* width: 50%; */
+            flex-basis: 100%;
+        }
+
+        .exp-cont .sec-img {
+            height: 130px;
+        }
+
+        .exp-cont .sec-def>b>p {
+            font-size: 14px;
+        }
+
+    }

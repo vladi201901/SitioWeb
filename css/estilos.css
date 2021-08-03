@@ -1,0 +1,525 @@
+/* a nivel de root colores*/
+:root {
+    /*colores*/
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #FF3E2E;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #767676;
+    --gray-dark: #434343;
+    --primary: #54B689;
+    --secondary: #4f4f4f;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #FF3E2E;
+    --light: #c2c2c2;
+    --dark: #434343;
+    --success: #28a745;
+    --esSalud: #003458;
+    --essSalud2: #4F4848;
+}
+
+:root {
+    --main-font: "Comic Sans MS";
+    --main-secundary: -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        Arial,
+        "Noto Sans",
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --font-size: 14px;
+    --main-color: var(--esSalud);
+    --second-color: #4F4848;
+    --font-color: #FAFAFA;
+    --main-boton: #337AB7;
+    --container-width: 1200px;
+
+}
+
+
+html {
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*estilos generales de estructura*/
+.row {
+    width: 100%;
+    display: block;
+
+}
+
+.menu {
+    position: fixed;
+    float: left;
+    width: 20%;
+    min-height: 800px;
+    background-color: var(--main-color);
+    color: var(--font-color);
+    text-align: center;
+}
+
+.menu2 {
+    float: left;
+    width: 20%;
+    min-height: 2400px;
+}
+
+.content {
+    float: left;
+    width: 80%;
+    min-height: 1200px;
+}
+
+/*estilos del menu*/
+.container-perfil {
+    width: 300px;
+    min-height: 1550px;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.img-perfil {
+    border-radius: 50%;
+    height: 220px;
+    border: 2px solid var(--font-color);
+    margin-bottom: 10px;
+}
+
+.descrip-perfil {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+li,
+a {
+    display: inline-block;
+    list-style: none;
+}
+
+.icon {
+    font-size: 20px;
+    margin: 5px;
+    background-color: white;
+    color: var(--main-color);
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+li>a:hover .icon {
+    background-color: var(--main-color);
+    color: white;
+    transition: all 500ms ease;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+.content-menu {
+    text-align: left;
+
+}
+
+#nav,
+.navbar-item {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 300ms ease;
+
+}
+
+.navbar-item {
+    display: block;
+
+}
+
+.ico {
+    margin-right: 30px;
+}
+
+.navbar-item:hover {
+    color: #A6A6A6;
+    transition: all 300ms ease;
+}
+
+/*Estilos del menu responsivo*/
+.nav-responsive {
+    display: none;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    background-color: #E4E4F2;
+    height: 450px;
+    padding: 3em;
+    font-family: var(--main-secundary);
+
+}
+
+.container-wrap {
+    display: block;
+    width: 100%;
+    min-height: 1020px;
+    font-family: var(--main-secundary);
+}
+
+.content-lenguajes {
+    width: 90%;
+    /* min-height: 760px; */
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.tit-exp {
+    font-size: 26px;
+}
+
+.h1-style {
+    font-size: 4rem;
+}
+
+.p-style {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.p-style-2 {
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+.content-perfil {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.content-imagen {
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+}
+
+.img-personal {
+    margin: 20px;
+    border: 2px solid var(--main-color);
+    border-radius: 10% 0;
+}
+
+
+.info-personal {
+    width: 100%;
+    height: 180px;
+    text-align: justify;
+}
+
+/*estilos de botones*/
+.btn-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-exp {
+    background-color: var(--main-boton);
+    color: white;
+    width: 14em;
+    padding: 10px;
+    margin: 10px;
+    font-family: var(--main-secundary);
+    font-size: 20px;
+    border: var(--main-boton);
+    border-radius: 10px;
+}
+
+.btn-cv {
+    background-color: var(--second-color);
+    color: white;
+    width: 14em;
+    padding: 10px;
+    margin: 10px;
+    font-family: var(--main-secundary);
+    font-size: 20px;
+    border: var(--main-boton);
+    border-radius: 10px;
+}
+
+.btn-exp:hover {
+    background-color: #265D8D;
+}
+
+.btn-cv:hover {
+    background-color: #2F2A2A;
+}
+
+.icons {
+    margin-right: 10px;
+}
+
+.info-lng {
+    margin-bottom: 1rem;
+}
+
+.descr-lenguaje {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.container-wrap {
+    display: flex;
+    width: 100%;
+    min-height: 280px;
+    margin: 0px auto;
+}
+
+.container-wrap .wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex-basis: 100%;
+    margin: 10px;
+}
+
+.caja {
+    border-radius: 20px;
+}
+
+.container-wrap .wrap .caja {
+    flex-basis: 20%;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container-wrap .wrap .caja:hover {
+    background-color: #dfeaf3;
+    cursor: pointer;
+}
+
+.icon-fab {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.progres {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #b5b5b5;
+    border-radius: .25rem;
+}
+
+.progress-bar {
+    background-color: var(--main-boton);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width 0.6s ease;
+}
+
+.btn-expr {
+    width: 100%;
+    height: 4rem;
+    background-color: var(--main-boton);
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 18px;
+    border: var(--main-boton);
+    border-radius: 10px;
+    transition: all 300ms ease;
+}
+
+.btn-expr:hover {
+    background-color: var(--white);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.content-experiencia {
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px;
+
+}
+
+.container-wrap-2 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px auto;
+
+
+}
+
+.exp-cont {
+    width: 49%;
+    border: 2px solid var(--main-boton);
+    border-radius: 5px;
+    margin: 5px;
+    color: var(--main-color);
+}
+
+.exp-cont:hover {
+    background-color: var(--main-boton);
+    color: white;
+
+}
+
+.exp-cont .sec-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 120px;
+    float: left;
+    background-color: var(--main-boton);
+}
+
+.exp-cont .img-exp {
+    width: 8rem;
+    height: 6rem;
+}
+
+.exp-cont .sec-def {
+    width: 70%;
+    float: left;
+    padding: 0.5em;
+    font-size: 14px;
+
+    font-family: var(--main-secundary);
+    line-height: 2;
+}
+
+.exp-cont .sec-def>b>p {
+    font-size: 18px;
+}
+
+
+
+
+
+#img-logo {
+    width: 30%;
+}
+
+.content-aptitudes {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 10px;
+    /* height: 540px; */
+}
+
+.container-wrap-3 .wrap .caja-3 {
+    flex-basis: 30%;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid var(--main-boton);
+    background-color: var(--white);
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.61);
+    -webkit-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.61);
+    transition: all 300ms ease;
+}
+
+.container-wrap-3 .wrap .caja-3:hover {
+    background-color: var(--main-boton);
+    color: var(--white);
+}
+
+.content-proyectos {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.container-wrap-4 .wrap .caja-4 {
+    flex-basis: 30%;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid var(--gray);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*estilos de experiencia*/
+/* .logo-img {
+    width: 30%;
+    height: 20rem;
+    background-color: red;
+    padding: 0;
+} */
+
+/*estilos de seccion de aptitudes*/
+.img-hab {
+    width: 8rem;
+    height: 6rem;
+    margin-top: 4px;
+}
+
+.contenedor p {
+    padding: 10px;
+    text-align: center;
+
+}
